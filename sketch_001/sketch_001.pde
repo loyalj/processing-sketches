@@ -11,7 +11,7 @@ void setup() {
     size(1280, 720);
     pixelDensity(displayDensity());
 
-    surface.setTitle("Sketch 008 - Entity Position and Display Viewport");
+    surface.setTitle("Sketch 001 - Entity Position and Display Viewport");
 
     colorMode(HSB, 360, 100, 100, 100);
 
@@ -43,6 +43,7 @@ void draw() {
     test.heading = sin(theta) * 360;
     theta += 0.005;
     pop();
+
 }
 
 
