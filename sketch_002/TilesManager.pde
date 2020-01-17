@@ -2,7 +2,6 @@ import java.util.Collections;
 
 class TilesManager {
     public ArrayList<TileBase> tiles = new ArrayList<TileBase>();
-    public boolean debug = true;
 
     public int addTile(TileBase _tile) {
         tiles.add(_tile);
