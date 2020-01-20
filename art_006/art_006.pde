@@ -1,5 +1,5 @@
 gLine[] lines = new gLine[5];
-gCircle[] circles = new gCircle[3];
+gCircle[] circles = new gCircle[5];
 
 
 // Circle control properties
@@ -10,12 +10,12 @@ float cr;
 
 
 // Should we draw the lines we use to divide cirlces?
-boolean drawLines = true;
+boolean drawLines = false;
 
 
 // Should we draw the "paper" texture
 boolean drawTexture = true;
-int texRes = 10;
+int texRes = 3;
 
 
 
